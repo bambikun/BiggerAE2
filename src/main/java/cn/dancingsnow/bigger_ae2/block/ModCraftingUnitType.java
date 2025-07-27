@@ -11,11 +11,11 @@ import com.tterrag.registrate.util.entry.BlockEntry;
 import lombok.Getter;
 
 public enum ModCraftingUnitType implements ICraftingUnitType {
-    ACCELERATOR_4(4, "4_core_crafting_accelerator"),
-    ACCELERATOR_16(16, "16_core_crafting_accelerator"),
-    ACCELERATOR_64(64, "64_core_crafting_accelerator"),
-    ACCELERATOR_256(256, "256_core_crafting_accelerator"),
-    ACCELERATOR_1024(1024, "1024_core_crafting_accelerator");
+    ACCELERATOR_4(32767, "4_core_crafting_accelerator"),
+    ACCELERATOR_16(65535, "16_core_crafting_accelerator"),
+    ACCELERATOR_64(1311070, "64_core_crafting_accelerator"),
+    ACCELERATOR_256(2147483647, "256_core_crafting_accelerator"),
+    ACCELERATOR_1024(9223372036854775807L, "1024_core_crafting_accelerator");
 
     private final int accelerator;
 
